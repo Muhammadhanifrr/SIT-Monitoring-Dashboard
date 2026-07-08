@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT Monitoring Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>SIT Monitoring Dashboard</h1>
+
+    <div id="dashboard">
+
+        <div class="card">
+            <h3>Total TC</h3>
+            <p id="total">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Pass</h3>
+            <p id="pass">0</p>
+        </div>
+
+        <div class="card">
+            <h3>Fail</h3>
+            <p id="fail">0</p>
+        </div>
+
+    </div>
+
+    <canvas id="chart"></canvas>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
